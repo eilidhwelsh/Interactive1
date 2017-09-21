@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Orangutan</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro" rel="stylesheet">
+  <style>
+div{
+  background-color: red;
+  width:200px;
+  height:200px;
+  float:left;
+  margin:40px;
+}
+div:nth-child(3){
+  background-color: green;
+  -webkit-transform: rotate(0deg);
+  -webkit-transform: scale 1;
+  transition:2s;
+}
+div:nth-child(3):hover{
+  background-color: purple;
+  -webkit-transform: rotate(90deg);
+  transition: 4s;
+}
+div:first-child{
+  background-color: orange;
+}
+div:last-child{
+  background-color: black;
+}
+  </style>
+
+
+</head>
+
+<body>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+
+</body>
+</html>
